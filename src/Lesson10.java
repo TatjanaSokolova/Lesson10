@@ -5,8 +5,8 @@ public class Lesson10 {
 
         //Application that counts how many coffees we drink
 
-//        int[] coffeeArray = new int[7];
-//
+        int[] coffeeArray = new int[7];
+
 //        coffeeArray[0] = 3;
 //        coffeeArray[1] = 4;
 //        coffeeArray[2] = 12;
@@ -26,14 +26,13 @@ public class Lesson10 {
 //        for (int i = 0; i < 3; i++) {
 //            for (int j = 0; j < 4; j++) {
 //                System.out.println("Indexs : i - " + i + "; j - " + j + " value = " + my2DArray[i][j]);
-//
 //            }
 //        }
 
 //        int[] forLoopArray = {5, 6, 7, 1, 1};
-//
-//        for (int internalValue : forLoopArray) {
-//            System.out.println("For loop element: " + internalValue);
+//        // KOROTKIJ SPOSOB LOOPA DLJA MASSIVA ->
+//        for (int i : forLoopArray) {
+//            System.out.println("For loop element: " + i);
 //        }
 
 //        int clockTime = 0;
@@ -51,22 +50,24 @@ public class Lesson10 {
 //            }
 //            clockTime++;
 //        }
-        int menuItem;
-        System.out.println("Select an action");
-           Scanner scanner = new Scanner (System.in);
-           menuItem = scanner.nextInt();
+
+//        int menuItem;
+//        System.out.println("Select an action");
+//           Scanner scanner = new Scanner (System.in);
+//           menuItem = scanner.nextInt();
 
 
-           while (menuItem != 0) {
-               if (menuItem == 1) {
-                   System.out.println("You are smart");
-               } else if (menuItem == 2) {
-                   System.out.println("You are pretty");
-               } else if (menuItem == 3) {
-                   System.out.println("You are best");
-               } else {
-                   System.out.println("OK");
-               }
-           }
+//           while (menuItem != 0) {
+//               if (menuItem == 1) {
+//                   System.out.println("You are smart");
+//               } else if (menuItem == 2) {
+//                   System.out.println("You are pretty");
+//               } else if (menuItem == 3) {
+//                   System.out.println("You are best");
+//                   menuItem = 0;
+//               } else {
+//                   System.out.println("OK");
+//               }
+//           }
     }
 }
